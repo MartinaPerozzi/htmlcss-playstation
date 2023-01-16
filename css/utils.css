@@ -1,0 +1,27 @@
+/* Utils */
+body {
+	color: rgb(32, 32, 32);
+}
+
+:root {
+	--blue: #0070d1;
+}
+
+h2 {
+	color: white;
+	font-size: 2.5rem;
+}
+
+h3 {
+	padding-bottom: 1rem;
+}
+
+h4 {
+	color: var(--blue);
+	font-size: 1rem;
+}
+
+h5 {
+	color: white;
+	font-size: 1.8rem;
+}

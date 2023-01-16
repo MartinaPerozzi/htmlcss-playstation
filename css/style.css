@@ -1,0 +1,86 @@
+.header-top {
+    background-color: black;
+    max-height: 60px;
+}
+
+.logo>img {
+    width: 13%;
+    max-width: 140px;
+}
+
+/* HEADER */
+
+.header-tot {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header i {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    height: 72vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+}
+
+.jumbo-container {
+    padding-top: 115px;
+}
+
+
+.returnal>img {
+    width: 75%;
+    padding-bottom: 2rem;
+}
+
+.returnal p {
+    color: white;
+    padding: 1rem 0rem;
+}
+
+.jumbo {
+    height: 100%;
+}
+
+/*  */
+.game {
+    height: 72vh;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: top;
+}
+
+.game img {
+    width: 60%;
+}
+
+.news {
+    background-color: rgb(34, 34, 34);
+}
+
+.card {
+    background-color: transparent;
+}
+
+.ps-plus {
+    background-color: #bebcbb;
+}
+
+.ps-plus .btn {
+    background-color: #d9dadc;
+    border: none;
+}
+
+.ps-now {
+    background-color: #161c3b;
+}
+
+.ps-now p {
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
