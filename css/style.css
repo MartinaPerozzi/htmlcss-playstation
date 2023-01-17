@@ -108,6 +108,10 @@ ul>li {
     width: 30%;
 }
 
+.footer-foot-logo p {
+    font-size: 0.8rem;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width:768px) {
 
