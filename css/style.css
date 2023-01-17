@@ -21,14 +21,9 @@ header i {
 }
 
 /* JUMBOTRON */
-.jumbotron {
-    height: 72vh;
-    background-image: url(../img/jumbo-bg.png);
-    background-position: center;
-}
 
 .jumbo-container {
-    padding-top: 115px;
+    padding-top: 120px;
 }
 
 .returnal>img {
@@ -40,9 +35,10 @@ header i {
     padding: 1rem 0rem;
 }
 
-.jumbo {
-    height: 100%;
+.returnal {
+    text-align: left;
 }
+
 
 /* CARDS */
 .card {
@@ -122,4 +118,13 @@ ul>li {
     .footer-foot-logo img {
         max-width: 20%;
     }
+}
+
+.carousel-item .bg-item {
+    max-height: 70vh;
+    cursor: pointer;
+}
+
+.jumbotron-thumbnails-container img {
+    cursor: pointer;
 }
