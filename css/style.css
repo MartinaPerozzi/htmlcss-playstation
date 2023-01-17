@@ -28,7 +28,7 @@ header i {
 }
 
 .jumbo-container {
-    padding-top: 130px;
+    padding-top: 115px;
 }
 
 .returnal>img {
@@ -37,7 +37,6 @@ header i {
 }
 
 .returnal p {
-    color: white;
     padding: 1rem 0rem;
 }
 
@@ -48,16 +47,17 @@ header i {
 /* CARDS */
 .card {
     background-color: transparent;
+    border: none;
 }
 
 /* IT TAKES TWO */
-.game {
+.game-it {
     height: 72vh;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: top;
 }
 
-.game img {
+.game-it img {
     width: 60%;
 }
 
@@ -76,7 +76,6 @@ header i {
 }
 
 .ps-now p {
-    color: white;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
