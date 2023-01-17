@@ -132,7 +132,7 @@ ul>li {
 /* JUMBOTRON CAROUSEL  
 ***********************/
 .carousel-item .bg-item {
-    max-height: 62vh;
+    height: 62vh;
     cursor: pointer;
 }
 
@@ -147,7 +147,7 @@ ul>li {
 
 }
 
-@media screen and (max-height:800px) {
+@media screen and (max-height:800px)and (max-width:768px) {
 
     .carousel-caption h2,
     .carousel-caption p {
