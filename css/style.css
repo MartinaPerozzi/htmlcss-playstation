@@ -131,27 +131,38 @@ ul>li {
 
 /* JUMBOTRON CAROUSEL  
 ***********************/
+/* background image */
 .carousel-item .bg-item {
-    height: 62vh;
     cursor: pointer;
+    /* max-height: 420px; */
+}
+
+.bg-item {
+    max-height: 420px;
 }
 
 .jumbotron-thumbnails-container img {
     cursor: pointer;
 }
 
+.img-pos {
+    object-fit: cover;
+    width: 100vh;
+    object-position: top;
+}
+
 @media screen and (max-width:992px) {
-    .bg-item img {
+    .bg-item img:not(.img-pos) {
         object-position: -560px 0px;
     }
 
 }
 
-@media screen and (max-height:800px)and (max-width:768px) {
+@media screen and (max-width:768px) {
 
     .carousel-caption h2,
     .carousel-caption p {
-        display: none
+        display: none;
     }
 
     .carousel-caption img {
@@ -159,6 +170,7 @@ ul>li {
     }
 
 }
+
 
 .border-hover:hover {
     border-bottom: 3px solid var(--blue);
