@@ -5,6 +5,7 @@ body {
 
 :root {
 	--blue: #0070d1;
+	--footer: #00439c;
 }
 
 h2 {
@@ -14,14 +15,16 @@ h2 {
 
 h3 {
 	padding-bottom: 1rem;
+	font-size: 2.2rem;
 }
 
 h4 {
-	color: var(--blue);
-	font-size: 1rem;
+	font-size: 1.3rem;
+	padding-bottom: 1.5rem;
 }
 
 h5 {
 	color: white;
-	font-size: 1.8rem;
+	font-size: 1rem;
+	padding-bottom: 1.5rem;
 }

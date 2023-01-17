@@ -54,7 +54,8 @@ header i {
 .game-it {
     height: 72vh;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: top;
+    background-position: 40% 10%;
+    background-size: cover;
 }
 
 .game-it img {
@@ -68,6 +69,10 @@ header i {
 
 .ps-plus .btn {
     background-color: #d9dadc;
+}
+
+.ps-plus img {
+    width: 70%;
 }
 
 /* Ps-now */
@@ -89,10 +94,28 @@ header i {
     max-width: 100%;
 }
 
+/* FOOTER */
+footer {
+    background-color: var(--footer);
+}
+
+ul>li {
+    list-style-type: none;
+    padding-top: 0.8rem;
+}
+
+.footer-foot-logo img {
+    width: 30%;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width:768px) {
 
     .social .row {
         max-width: 40%;
+    }
+
+    .footer-foot-logo img {
+        max-width: 20%;
     }
 }
