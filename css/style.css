@@ -1,5 +1,5 @@
+/* HEADER */
 .header-top {
-    background-color: black;
     max-height: 60px;
 }
 
@@ -8,14 +8,13 @@
     max-width: 140px;
 }
 
-/* HEADER */
-
 .header-tot {
     position: fixed;
     width: 100%;
     z-index: 1;
 }
 
+/* Search icon */
 header i {
     font-size: 1.5rem;
     padding: 1rem;
@@ -32,7 +31,6 @@ header i {
     padding-top: 130px;
 }
 
-
 .returnal>img {
     width: 75%;
     padding-bottom: 2rem;
@@ -47,7 +45,12 @@ header i {
     height: 100%;
 }
 
-/*  */
+/* CARDS */
+.card {
+    background-color: transparent;
+}
+
+/* IT TAKES TWO */
 .game {
     height: 72vh;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -58,23 +61,16 @@ header i {
     width: 60%;
 }
 
-.news {
-    background-color: rgb(34, 34, 34);
-}
-
-.card {
-    background-color: transparent;
-}
-
+/* Ps-plus */
 .ps-plus {
     background-color: #bebcbb;
 }
 
 .ps-plus .btn {
     background-color: #d9dadc;
-    border: none;
 }
 
+/* Ps-now */
 .ps-now {
     background-color: #161c3b;
 }
@@ -85,11 +81,16 @@ header i {
     padding-bottom: 1rem;
 }
 
+.ps-now img {
+    width: 70%;
+}
+
 /* Social  */
 .social .row {
     max-width: 100%;
 }
 
+/* MEDIA QUERIES */
 @media screen and (min-width:768px) {
 
     .social .row {
