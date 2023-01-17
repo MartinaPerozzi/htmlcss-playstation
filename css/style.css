@@ -35,10 +35,10 @@ header i {
     padding: 1rem 0rem;
 }
 
+
 .returnal {
     text-align: left;
 }
-
 
 /* CARDS */
 .card {
@@ -47,6 +47,10 @@ header i {
 }
 
 /* IT TAKES TWO */
+.jumbo {
+    height: 100%;
+}
+
 .game-it {
     height: 72vh;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
