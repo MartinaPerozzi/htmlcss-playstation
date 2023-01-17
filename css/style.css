@@ -159,3 +159,7 @@ ul>li {
     }
 
 }
+
+.border-hover:hover {
+    border-bottom: 3px solid var(--blue);
+}
