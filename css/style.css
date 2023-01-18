@@ -40,10 +40,30 @@ header i {
     text-align: left;
 }
 
+.carousel-my {
+    height: 60vh;
+}
+
+.bg-item img {
+    height: 60vh;
+    object-fit: cover;
+    width: 100%;
+}
+
 /* CARDS */
 .card {
     background-color: transparent;
     border: none;
+}
+
+.card:focus {
+    border: 1px solid var(--blue);
+    padding: 0.1rem;
+}
+
+/* PS5 */
+.border-hover:hover {
+    border-bottom: 3px solid var(--blue);
 }
 
 /* IT TAKES TWO */
@@ -137,9 +157,9 @@ ul>li {
     /* max-height: 420px; */
 }
 
-.bg-item {
+/* .bg-item {
     max-height: 420px;
-}
+} */
 
 .jumbotron-thumbnails-container img {
     cursor: pointer;
@@ -151,12 +171,6 @@ ul>li {
     object-position: top;
 }
 
-@media screen and (max-width:992px) {
-    .bg-item img:not(.img-pos) {
-        object-position: -560px 0px;
-    }
-
-}
 
 @media screen and (max-width:768px) {
 
@@ -171,7 +185,50 @@ ul>li {
 
 }
 
-
-.border-hover:hover {
-    border-bottom: 3px solid var(--blue);
+/* BONUS NAV-BAR*/
+.nav-my {
+    position: relative;
 }
+
+.nav-my-drop {
+    position: static;
+}
+
+.drop-my-menu.show {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+
+.drop-my-menu img {
+    width: 70%;
+}
+
+.my-links li {
+    list-style-type: disc;
+}
+
+.links {
+    gap: 3rem;
+}
+
+.my-links {
+    width: 100%;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+/* HOVER */
+.btn-dark {
+    --bs-btn-hover-border-color: var(--blue);
+}
+
+/* li:hover .my-hover-header {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3rem;
+    padding: 0.2rem;
+} */
