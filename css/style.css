@@ -229,6 +229,23 @@ ul>li {
 }
 
 .my-hover-header:hover .btn-dark {
-    border: 4px double rgb(255, 255, 255);
-    border-radius: 3rem;
+    /* border: 4px double rgb(255, 255, 255); */
+    outline-offset: 2px;
+    outline: 2px solid black;
+}
+
+.btn:hover .btn {
+    /* border: 4px double rgb(255, 255, 255); */
+    outline-offset: 2px;
+    outline: 2px solid black;
+}
+
+.my-hover-jumbo:hover .btn {
+    outline-offset: 2px;
+    outline: 2px solid rgb(214, 46, 46);
+}
+
+.bounce:hover .card {
+    transition: 0.3s ease-in;
+    transform: translate(-0px, -15px);
 }
