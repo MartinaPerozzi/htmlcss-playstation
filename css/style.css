@@ -234,17 +234,22 @@ ul>li {
     outline: 2px solid black;
 }
 
-.btn:hover .btn {
-    /* border: 4px double rgb(255, 255, 255); */
+.my-hover-header:hover .btn-dark {
     outline-offset: 2px;
     outline: 2px solid black;
 }
 
-.my-hover-jumbo:hover .btn {
+.btn-danger:hover {
     outline-offset: 2px;
     outline: 2px solid rgb(214, 46, 46);
 }
 
+.btn-primary:hover {
+    outline-offset: 2px;
+    outline: 2px solid var(--blue);
+}
+
+/* CARDS */
 .bounce:hover .card {
     transition: 0.3s ease-in;
     transform: translate(-0px, -15px);
